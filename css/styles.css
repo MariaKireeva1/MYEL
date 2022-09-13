@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F1F1F1;
+}
+
+.shipping {
+background: #D8BF95 !important;
+height: 40px;
+}
+
+
+.header_nav li{
+padding: 35px 0;
+font-family: 'Roboto', sans-serif;
+}
+
+.header_nav li:first-child {
+    padding-left: 30px;
+    margin-right: 261px;
+}
+
+.header_nav li:last-child {
+    padding-right: 30px;
+    margin-left: 77px;
+}
+
+.header_nav .logo {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.shipping p {
+text-align: center;
+padding: 11px 0;
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+}
+
+
+.wrapper_1 {
+    height: 630px;
+    width: 100%;
+}
+.wrapper_1 .photo1_first {
+    display: inline-block;
+    vertical-align: top;
+width: 485px;
+}
+
+.wrapper_1 .photo1_first .text1_first p{
+    font-family:  'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.wrapper_1 .photo3_first .text3_first p{
+    font-family:  'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.wrapper_1 .img2_first{
+    display: inline-block;
+    vertical-align: top;
+    width: 485px;
+}
+
+.wrapper_1 .photo3_first {
+    display: inline-block;
+    vertical-align: top;
+   width: 485px;
+}
+
+
+.text_second_h1 {
+    margin: 116px 484px 31px 64px;
+    font-family:  'Roboto', sans-serif;
+}
+
+.text_second_p {
+    margin: 0 561px 0 64px;
+    font-family:  'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.shop_myel {
+    margin-right: 64px;
+    margin-left: 1270px;
+    margin-bottom: 125px;
+}
+.shop_myel a{
+    font-family:  'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+
+.arrivals {
+    margin: 0 1122px 60px 64px;
+}
+
+.arrivals p{
+    font-family:  'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.wrapper {
+    margin-left: 86px;
+    margin-right: 86px;
+}
+
+.wrapper .photo1_third .text1_1_third p{
+    font-family:  'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.wrapper .photo1_third .text2_1_third p{
+    font-family:  'Roboto', sans-serif;
+    font-size: 16px; 
+}
+
+.wrapper .photo1_third .shop_now a{
+    font-family:  'Roboto', sans-serif;
+    font-size: 16px; 
+}
+
+
+.photo3_third .text1_3_third p{
+    font-family:  'Roboto', sans-serif;
+    font-size: 16px; 
+}
+.photo3_third .text2_3_third p{
+    font-family:  'Roboto', sans-serif;
+    font-size: 16px; 
+}
+
+.photo3_third a{
+    font-family:  'Roboto', sans-serif;
+    font-size: 16px; 
+}
+
+
+.wrapper .photo1_third {
+    display: inline-block;
+    vertical-align: top;
+    height: 515px;
+}
+
+.wrapper .photo3_third {
+    display: inline-block;
+    vertical-align: top;
+    height: 515px;
+
+}
+
+.wrapper .img2_third{
+    display: inline-block;
+    vertical-align: top;
+    height: 515px;
+    
+}
+
+.wrapper .photo1_third .text1_1_third {
+    margin-bottom: 50px;
+}
+
+.wrapper .photo1_third .text2_1_third {
+    margin-top: 9px;
+}
+
+.wrapper .photo1_third .shop_now{
+    display: inline-block;
+    margin-top: 9px;
+}
+
+.wrapper_2 {
+    margin-top: 173px;
+    
+}
+
+.wrapper_2 .photo2_fourth .text1_2_fourth h2{
+    font-family:  'Roboto', sans-serif;
+}
+
+.wrapper_2 .photo2_fourth .text2_2_fourth p{
+    font-family:  'Roboto', sans-serif;
+    font-size: 14px; 
+}
+
+.wrapper_2 .img1_fourth {
+    display: inline-block;
+    width: 720px;
+height: 936px;
+}
+
+.wrapper_2 .photo2_fourth {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    height: 936px;
+}
+
+.wrapper_2 .img2_fourth img{
+height: 815px;
+}
