@@ -1,163 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Learning: Appeal to page elements through selectors"
+    />
+    <meta name="keywords" content="selectors, class, id, investigation" />
     <title>MYEL</title>
-    <link rel="stylesheet" href="./css/reset.css">
-   <link rel="stylesheet" href="./css/styles.css">
 
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/cargo_favicon.svg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/cargo_favicon.svg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/cargo_favicon.svg"
+    />
+    <link rel="mask-icon" href="./img/cargo_favicon.svg" color="#fff" />
+
+    <meta name="og:url" content="#" />
+    <!--Domain site url-->
+    <meta name="og:title" content="Master TAO cargo" />
+    <meta name="og:description" content="Master TAO cargo website" />
+    <meta name="og:type" content="article" />
+    <meta name="og:image" content="./img/header_bg.png" />
+    <meta property="og:image:width" content="350" />
+    <meta property="og:image:height" content="200" />
+    <meta property="og:image:alt" content="selector" />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div class="shipping">
-            <p>Free shipping on orders over $150 over Canada</p>
-        </div>
-        <div class="header_nav">
-        <div class="logo">
-            <a href="./index.html"><img src="./img/logo.png" alt="MYEL"></a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Shop by</a> </li>
+      <div class="shipping">
+        <p>Free shipping on orders over $150 over Canada</p>
+      </div>
+      <div class="container">
+        <div class="header">
+            <nav class="header_nav">
+              <ul>
+                <li><a href="#">Shop by</a></li>
                 <li><a href="#">Collections</a></li>
+                <li>
+                  <a href="./index.html" class="header_logo">
+                    <img src="./img/logo.png" alt="MYEL"/>
+                </a>
+                </li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Login</a></li>
                 <li><a href="#">Fr|En</a></li>
                 <li><a href="#">0</a></li>
-            </ul>
-        </nav>
-     </div>
-    </header>
-
-
-    <main>
-
-        <section class="first">
-<div class="wrapper_1">
-    <div class="photo1_first">
-        <div class="img1_first">
-            <img src="./img/img1_first.png" alt="Photo of the signet ring">
-        </div>
-        <div class="text1_first">
-            <p>A MODERN SIGNET RING</p>
-        </div>
-    </div>
-    
-    
-    <div class="img2_first">
-    <img src="./img/img2_first.png" alt="Rings">
-    </div>
-    
-    <div class="photo3_first">
-       <div class="img3_first">
-           <img src="./img/img3_first.png" alt="Necklaces">
-        </div>
-    
-        <div class="text3_first">
-            <p>STACK THE NECKLACES</p>
-        </div>
-    </div>
-</div>
-
-</section>
-
-<section class="second">
-    <div class="text_second">
-<div class="text_second_h1">
-    <h1>Responsible high-end jewelry made in Montreal. MYEL creations are designed to stand the test of time.</h1>
-</div>
-<div class="text_second_p">
-    <p>Spontaneous, delicate, audacious, our jewels distinguish themselves with their elegance.</p>
-</div>
-    </div>
-
-
-    <div class="shop_myel">
-        <nav>
-            <a href="#">Shop MYEL</a>
-        </nav>
-    </div>
-</section>
-
-
-
-<section class="third">
-<div class="arrivals">
-    <p>SHOP NEW ARRIVALS</p>
-</div>
-
-<div class="wrapper">
-    <div class="photo1_third">
-
-        <div class="text1_1_third">
-            <p>Stein Necklace in Silver with Aquamarine</p>
-        </div>
-        
-        <img src="./img/img1_third.png" alt="Stein Necklace in Silver with Aquamarine">
-        
-        <div class="text2_1_third">
-            <p>$310 CAD</p>
-        </div>
-        <div class="shop_now">
-            <nav>
-                <a href="#">Shop now</a>
+              </ul>
             </nav>
         </div>
-        </div>
-        
-        
-        <div class="img2_third">
-        <img src="./img/img2_third.png" alt="earring">
-        </div>
-        
-        <div class="photo3_third">
-        <div class="text1_3_third">
-            <p>Origines Pendant in Yellow Gold with Ethical Birthstone</p>
-        </div>
-        <div class="img3_third">
-            <img src="./img/img3_third.png" alt="Origines Pendant in Yellow Gold with Ethical Birthstone">
-        </div>
-        <div class="text2_3_third">
-            <p>$280 CAD</p>
-        </div>
-        <nav>
-        <a href="#">Shop now</a>
-        </nav>
-        </div>
-    </div>
-        </section>
-        
-        <section class="fourth">
-            <div class="wrapper_2">
+      </div>
+    </header>
 
-                <div class="img1_fourth">
-                    <img src="./img/img1_fourth.png" alt="Bonne Mine t-shirt">
-                </div>
-                
-                <div class="photo2_fourth">
-                    <div class="text1_2_fourth">
-                        <h2>Bonne Mine t-shirt</h2>
-                    </div>
+    <main>
+      <section class="first">
+        
+          <div class="wrapper_1">
+              <div class="img1_first fl">
+                <img src="./img/img1_first.png" alt="Photo of the signet ring" />
+              </div>
+            
 
-                    <div class="img2_fourth">
-                        <img src="./img/img2_fourth.png" alt="Bonne Mine t-shirt">
-                    </div>
-
-
-                    <div class="text2_2_fourth">
-                        <p>Support the fundraising campaign</p>
-                    </div>
-                </div>
+            <div class="img2_first fl">
+              <img src="./img/img2_first.png" alt="Rings" />
             </div>
+          </div>
+          <div class="img3_first fl">
+            <img src="./img/img3_first.png" alt="Necklaces" />
+          </div>
+
+          <div class="text3_first fl">
+            <p class="">STACK THE NECKLACES</p>
+          </div>
+          <div class="text1_first fr">
+            <p>A MODERN SIGNET RING</p>
+          </div>
+      </section>
+
+      <section class="second clearfix">
+        <div class="container">
+          <div class="text_second fl">
+            <div class="text_second_h1">
+              <h1>
+                Responsible high-end jewelry made in Montreal. MYEL creations are
+                designed to stand the test of time.
+              </h1>
+            </div>
+            <div class="text_second_p">
+              <p>
+                Spontaneous, delicate, audacious, our jewels distinguish
+                themselves with their elegance.
+              </p>
+            </div>
+          </div>
+          <div class="shop_myel fr">
+            <nav>
+              <a href="#">Shop MYEL</a>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <section class="third clearfix">
+        <div class="arrivals">
+          <p>SHOP NEW ARRIVALS</p>
+        </div>
+
+<div class="wrapper2_text">
+  <div class="text1_1_third fl">
+    <p>Stein Necklace in Silver with Aquamarine</p>
+  </div>
+  <div class="text1_3_third fr">
+    <p>Origines Pendant in Yellow Gold with <br> Ethical Birthstone</p>
+  </div>
+</div>
+
+        <div class="wrapper_2 clearfix">
+          <div class="photo1_third fl">
+            <img src="./img/img1_third.png" alt="Stein Necklace in Silver with Aquamarine"/>
+          </div>
+
+          <div class="img2_third fl">
+            <img src="./img/img2_third.png" alt="earring" />
+          </div>
+
+          
+            <div class="img3_third fl">
+              <img
+                src="./img/img3_third.png"
+                alt="Origines Pendant in Yellow Gold with Ethical Birthstone"
+              />
+            </div>
+          </div>
+
+        <div class="wrapper2_text2 clearfix">
+
+          <div class="text2_1_third fl">
+            $310 CAD
+          </div>
+          <div class="shop_now">
+            <nav class="overflow">
+              <a href="#" class="fl">Shop now</a>
+            </nav>
+          </div>
+          
+          <div class="shop_now_2 fr">
+            <nav>
+              <a href="#" class="fr">Shop now</a>
+            </nav>
+          </div>
+          <div class="text2_3_third fr">
+            $280 CAD
+          </div>
+          
+          
+
+        </div>
+      </section>
+
+      <section class="fourth clearfix">
+        <div class="wrapper_2">
+          <div class="img1_fourth fl">
+            <img src="./img/img1_fourth.png" alt="Bonne Mine t-shirt" />
+          </div>
+
+          <div class="photo2_fourth fl">
+            <div class="text1_2_fourth">
+              Bonne Mine t-shirt
+            </div>
+
+            <div class="img2_fourth">
+              <img src="./img/img2_fourth.png" alt="Bonne Mine t-shirt" />
+            </div>
+
+            <div class="text2_2_fourth">
+              Support the fundraising campaign
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="five clearfix">
+<p>
+  Browse by categories
+</p>
+
+<div class="section5_photos" fl>
+  <img src="./img/section5_rings.png" alt="rings">
+  <img src="./img/section5_bracelet.png" alt="bracelet">
+  <img src="./img/section5_earrings.png" alt="earrings">
+</div>
+      </section>
+
+      <section class="six clearfix overflow">
+<p>
+  One-of-a-kind books
+</p>
+
+<div class="section6_photos fl">
+  <img src="./img/section6_first.png" alt="books">
+  <img src="./img/section6_second.png" alt="the book">
+</div>
+      </section>
+
+      <section class="seven clearfix">
+        <div class="seven_text1">
+          <p>
+            Together, we can build a brighter tomorrow.
+             We use ethical stones 
+            and the most eco-responsible raw material possible.
+          </p>
+        </div>
+
+        <div class="seven_photos fl">
+          <img src="./img/section7_first.png" alt="">
+          <img src="./img/section7_second.png" alt="">
+          <img src="./img/section7_third.png" alt="">
+        </div>
+
+        <div class="seven_text2 clearfix">
+
+          <div class="seven_text2_1 fl">
+            <div class="number">01</div> <br> <br>
+            <div class="descr">Our jewelry is designed and produced locally in Montreal.</div>
+          </div>
+          
+
+          <div class="seven_text2_2 fl">
+            <div class="number">02</div> <br> <br>
+            <div class="descr">MYEL is a member of the
+               Ethical Metalsmith Association.</div>
+          </div>
+          
+          <div class="seven_text2_3 fl">
+            <div class="number">03</div> <br> <br>
+            <div class="descr">We create high end jewelry, 
+              designed to stand the test of time.</div>
+          </div>
+         
+          
+          <div class="learn_more clearfix">
+            <nav>
+              <a href="#" >Learn more</a>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer">
+          <div class="shop_by fl">
+            <nav>
+              <a href="#">Shop By</a>
+              <ul>
+                <li><a href="#">Necklaces</a></li>
+                <li><a href="#">Earrings</a></li>
+                <li><a href="#">Best Sellers</a></li>
+                <li ><a href="#">Rings</a></li>
+                <li ><a href="#">Bracelets</a></li>
+                <li><a href="#">New Arrivals</a></li>
+              </ul>
+            </nav>
+              </div>
+              <div class="support fr">
+                <nav>
+                  <h3>Support</h3>
+                  <ul>
+                    <li><a href="#">Product care</a></li>
+                    <li><a href="#">Returns, shipping & pricing</a></li>
+                    <li><a href="#">FAQ</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="myel_footer fr">
+                <nav>
+                  <h3>MYEL</h3>
+                  <ul>
+                    <li> <a href="#"> About</a></li>
+                    <li><a href="#">Journal</a></li>
+                    <li><a href="#">Ethical stones</a></li>
+                    <li><a href="#">Terms & privacy</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="visit fr">
+                <nav>
+                  <h3>Visit</h3>
+                  <ul>
+                    <li><a href="#">The Store</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+        </div>
        
+        <div class="footer_2 clearfix">
+          <div class="social fl">
+            <h3>Social</h3>
+            <div class="facebook fl">
+              <a href="#"><img src="./img/facebook.png" alt="facebook"></a>
+            </div>
 
+            <div class="inst fl">
+              <a href="#">
+                <img src="./img/inst.png" alt="instagram">
+              </a>
+            </div>
+            
+          </div>
 
-</section>
+          <div class="lang fl">
+            Fr|En
+          </div>
+
+          <div class="credits fr">
+            Web Credits
+          </div>
+
+          <div class="reserved fr">
+            All rights reserved. © 2021 - MYEL
+          </div>
+        </div>
+      </footer>
     </main>
-</body>
+  </body>
 </html>
