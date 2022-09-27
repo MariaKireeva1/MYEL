@@ -28,6 +28,65 @@ text-align: center;
   margin: 0 auto;
 }
 
+.wrapper_1 {
+  overflow: auto;
+}
+
+.wrapper1_bg1 {
+  background-image: url('../img/img1_first.png');
+  background-repeat: no-repeat;
+
+  float: left;
+  width: 100%;
+  max-width: 480px;
+}
+
+.text1_bg {
+  margin: 580px 0px 33px 30px;
+  text-shadow: 0px 0px 1px black;
+}
+
+.wrapper1_bg2 {
+  float: left;
+}
+
+.wrapper1_bg3 {
+  background-image: url('../img/img3_first.png');
+  background-repeat: no-repeat;
+  float: left;
+  width: 100%;
+  max-width: 480px;
+}
+
+.text3_bg {
+  margin: 580px 288px 34px 33px;
+  text-shadow: 0px 0px 1px black;
+}
+
+.wrapper1_bg1 p{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+
+.wrapper1_bg3 p{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+.first {
+  overflow: auto;
+}
 
 .shipping {
   background: #d8bf95;
@@ -72,33 +131,58 @@ text-decoration: none;
 
 .header_nav li:first-child {
   margin-right: 230px;
+  border-bottom: 2px solid transparent;
 }
 
 .header_nav li:nth-child(2) {
   margin-right: 230px;
+  border-bottom: 2px solid transparent;
+}
+
+.header_nav li:nth-child(2):hover {
+  border-bottom: 2px solid #D8BF95;
+}
+
+.header_nav li:nth-child(4):hover {
+  border-bottom: 2px solid #D8BF95;
+}
+
+.header_nav li:nth-child(5):hover {
+  border-bottom: 2px solid #D8BF95;
+}
+
+.header_nav li:nth-child(6):hover {
+  border-bottom: 2px solid #D8BF95;
 }
 
 .header_nav li:nth-child(3) {
   margin-right: 140px;
+  border-bottom: 2px solid transparent;
 }
 
 .header_nav li:nth-child(4) {
   margin-right: 220px;
+  border-bottom: 2px solid transparent;
 }
 
 .header_nav li:nth-child(5) {
   margin-right: 40px;
+  border-bottom: 2px solid transparent;
 }
 
 .header_nav li:nth-child(6) {
 margin-right: 75px;
+border-bottom: 2px solid transparent;
 }
+
+.header_nav li:first-child:hover {
+  border-bottom: 2px solid #D8BF95;
+} 
+
+
 
 .wrapper_1 {
   min-width: 1440px;
-}
-.wrapper_1 img {
-  float: left;
 }
 
 .second {
@@ -123,6 +207,10 @@ font-weight: 400;
 font-size: 20px;
 line-height: 25px;
 color: #000000;
+}
+
+.shop_myel a:hover{
+  border-bottom: 2px solid #D8BF95;
 }
 
 .shop_myel a {
@@ -193,8 +281,24 @@ color: #000000;
 margin-right: 240px;
 }
 
+
+.shop_now a {
+ 
+  border-bottom: 2px solid transparent;
+}
+
+.shop_now a:hover{
+  border-bottom: 2px solid #D8BF95;
+}
+
+
 .shop_now_2 a {
   margin-right: 85px;
+  border-bottom: 2px solid transparent;
+}
+
+.shop_now_2 a:hover{
+  border-bottom: 2px solid #D8BF95;
 }
 
 .wrapper_2 {
@@ -233,6 +337,34 @@ color: #000000;
   color: #000000;
 }
 
+.bg1_five {
+  background-image: url('../img/section5_rings.png');
+  background-repeat: no-repeat;
+  margin-left: 55px;
+}
+
+.bg2_five {
+  margin-right: 45px;
+}
+
+.bg3_five {
+  background-image: url('../img/section5_earrings.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 450px;
+}
+
+.text1_five, .text3_five {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 33px;
+line-height: 42px;
+text-transform: capitalize;
+color: #FFFFFF;
+margin: 500px 340px 0px 43px;
+}
+
 .five {
   padding-top: 40px;
 }
@@ -243,7 +375,7 @@ font-weight: 400;
 font-size: 24px;
 line-height: 30px;
 color: #000000;
-margin: 43px 0 16px 65px;
+margin: 43px 0 16px 55px;
 }
 
 .section5_photos{
@@ -254,14 +386,28 @@ margin: 43px 0 16px 65px;
   padding-right: 20px;
 }
 
-.six p {
+.wrapper_6 {
+  margin-top: 100px;
+}
+
+.text1_6 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: #000000;
-  margin-top: 90px;
+  text-shadow: 0px 0px 1px white;
+  margin-top:31px;
+  margin-left: 45px;
+  margin-right: 507px;
+  margin-bottom: 880px;
+}
+
+.bg1_six {
+  background-image: url('../img/section6_first.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section6_photos {
@@ -280,7 +426,11 @@ margin-bottom: 85px;
 
 }
 
-.seven .seven_text1 {
+.seven {
+  margin-top: 127px;
+}
+
+ .seven_text1 {
   width: 630px;
 }
 
@@ -358,6 +508,11 @@ color: #000000;
 
 .learn_more {
   margin: 50px 0 50px 65px;
+ 
+}
+
+.learn_more a:hover{
+  border-bottom: 2px solid #D8BF95;
 }
 
 .learn_more a{
@@ -370,7 +525,111 @@ color: #000000;
  text-decoration: none;
   text-transform: uppercase;
   color: #000000;
+  border-bottom: 2px solid transparent;
 }
+
+.text1_eight, .text2_eight, .text3_eight, .text5_eight {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+float: left;
+}
+
+.text2_eight {
+  margin: 0 auto;
+}
+
+.text1_eight, .text2_eight {
+  margin-right: 450px;
+}
+
+.text4_eight {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+line-height: 60px;
+color: #FFFFFF;
+max-width: 305px;
+margin-top: 187px;
+margin-bottom: 32px;
+}
+
+.text5_eight {
+  line-height: 22px;
+}
+
+.line_eight {
+  width: 100%;
+  max-width: 420px;
+  height: 1px;
+  background: #FFFFFF;
+  position: absolute;
+  bottom: 19px;
+  left: 65px;
+}
+
+.wrapper_8 {
+  position: relative;
+  background-image: url('../img/last_bg.png');
+  background-repeat: no-repeat;
+  padding: 100px 65px 78px;
+}
+
+.text1_nine {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin: 67px 465px 846px 50px;
+}
+
+ .wrapper_nine {
+  margin-bottom: 40px;
+} 
+
+.bg1_nine {
+  background-image: url('../img/section8_bg1.png');
+  background-repeat: no-repeat;
+}
+
+.text2_nine {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+color: #000000;
+max-width: 586px;
+margin-top: 47px ;
+margin-left: 50px;
+}
+
+.bg2_nine {
+  background-image: url('../img/section8_bg2.png');
+  background-repeat: no-repeat;
+}
+
+
+.text3_nine {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  margin: 700px 537px 64px 50px;
+}
+
+.footer {
+  padding-top: 99px;
+}
+
 
 .footer li a{
 font-family: 'Roboto';
@@ -479,4 +738,12 @@ margin: 90px 0 30px 0;
 
 .inst img {
   padding: 10px;
+}
+
+.footer a {
+  border-bottom: 2px solid transparent;
+}
+
+.footer a:hover{
+  border-bottom: 2px solid #D8BF95;
 }
