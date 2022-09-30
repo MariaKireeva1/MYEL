@@ -28,8 +28,13 @@ text-align: center;
   margin: 0 auto;
 }
 
+.container_fluid {
+  width: 100%;
+}
+
 .wrapper_1 {
   overflow: auto;
+  margin: 0 auto;
 }
 
 .wrapper1_bg1 {
@@ -186,7 +191,7 @@ border-bottom: 2px solid transparent;
 }
 
 .second {
-  padding: 115px 60px 160px 60px;
+  padding: 115px 60px 100px 40px;
 }
 
 .text_second_h1 {
@@ -196,7 +201,7 @@ font-weight: 400;
 font-size: 64px;
 line-height: 64px;
 color: #000000;
-width: 892px;
+max-width: 892px;
 margin-bottom: 31px;
 }
 
@@ -231,7 +236,8 @@ color: #000000;
   font-size: 24px;
   line-height: 30px;
   color: #000000;
-  margin: 0 0 60px 60px;
+  margin-bottom: 60px;
+ 
 }
 
 .text1_1_third p {
@@ -253,6 +259,7 @@ font-weight: 400;
 font-size: 18px;
 line-height: 22px;
 color: #000000;
+margin-right: 110px;
 }
 
 .text2_1_third {
@@ -326,6 +333,7 @@ font-weight: 400;
 font-size: 44px;
 line-height: 60px;
 color: #000000;
+margin-left: 50px;
 }
 
 .text2_2_fourth {
@@ -335,6 +343,7 @@ color: #000000;
   font-size: 14px;
   line-height: 18px;
   color: #000000;
+  margin-left: 50px;
 }
 
 .bg1_five {
@@ -414,65 +423,23 @@ margin: 43px 0 16px 55px;
   margin-bottom: 125px;
 }
 
-.seven .seven_text1 p {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 43px;
-line-height: 60px;
-color: #000000;
-margin-left: 64px;
-margin-bottom: 85px;
-
-}
-
 .seven {
-  margin-top: 127px;
+  margin-top: 125px;
 }
 
- .seven_text1 {
-  width: 630px;
-}
-
-.seven_photos {
-  padding: 0 160px 0 160px ;
-}
-
-.seven_photos img:first-child{
-  padding-right: 200px;
-}
-
-.seven_photos img:nth-child(2) {
-  padding-right: 200px;
-}
-
-.seven_text2 {
-  margin: 0 110px 0 65px;
-}
-
-.seven_text2_1 {
-  width: 420px;
-}
-
-.seven_text2_2 {
-  width: 320px;
-}
-
-.seven_text2_3 {
- width: 375px;
-}
-
-.seven_text2 .number {
+.seven_h {
   font-family: 'Roboto';
-  float: left;
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 45px;
-color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 60px;
+  color: #000000;
+  width: 100%;
+  max-width: 630px;
+  margin-left: 65px;
 }
 
-.seven_text2 .descr {
+.descr {
   font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -481,34 +448,24 @@ line-height: 30px;
 color: #000000;
 }
 
-.seven_text2_1 .number {
-  margin: 65px 400px 70px 65px;
+.seven_item {
+  width: 100%;
+  max-width: 350px;
+  margin: 65px;
 }
 
-.seven_text2_1 .descr {
-  margin: 0 20px 55px 65px;
-}
-
-
-.seven_text2_2 .number {
-  margin: 70px 400px 70px 0;
-}
-
-.seven_text2_3 .number {
-  margin: 70px 440px 70px 0;
-}
-
-.seven_text2:first-child {
-  margin-right: 20px;
-}
-
-.seven_text2:nth-child(2) {
-  margin-right: 120px;
+.number {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 45px;
+color: #000000;
+margin: 70px 0;
 }
 
 .learn_more {
-  margin: 50px 0 50px 65px;
- 
+  margin-bottom: 50px;
 }
 
 .learn_more a:hover{
@@ -522,7 +479,7 @@ color: #000000;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
- text-decoration: none;
+  text-decoration: none;
   text-transform: uppercase;
   color: #000000;
   border-bottom: 2px solid transparent;
@@ -577,6 +534,7 @@ margin-bottom: 32px;
   background-image: url('../img/last_bg.png');
   background-repeat: no-repeat;
   padding: 100px 65px 78px;
+  margin-left: 30px;
 }
 
 .text1_nine {
