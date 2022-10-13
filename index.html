@@ -35,7 +35,9 @@
     <meta property="og:image:width" content="350" />
     <meta property="og:image:height" content="200" />
     <meta property="og:image:alt" content="selector" />
-
+<!-- CSS only -->
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
 
@@ -50,23 +52,29 @@
     <header>
       <div class="shipping">
         <div class="shipping_text">Free shipping on orders over $150 over Canada</div>
+        <div class="burger">
+          <span></span><span></span><span></span>
+        </div>
       </div>
 
      <nav>
       <div class="container">
-        <div class="header">
+        <div class="header_logo">
+          <a href="./index.html"><img src="./img/logo.png" alt="MYEL"></a>
+        </div>
+        <!-- <div class="header"> -->
           <ul class="header_list">
            <li class="header_list_item"><a href="#" class="header_list_link">Shop by</a></li>
            <li class="header_list_item"><a href="#" class="header_list_link">Collections</a></li>
-           <li class="header_list_item">
-             <a href="./index.html"><img src="./img/logo.png" alt="MYEL"></a>
+           <li class="header_list_item header_list_item_logo">
+             <a href="./index.html" ><img src="./img/logo.png" alt="MYEL"></a>
            </li>
            <li class="header_list_item"><a href="#" class="header_list_link">About us</a></li>
            <li class="header_list_item"><a href="#" class="header_list_link">Login</a></li>
            <li class="header_list_item"><a href="#" class="header_list_link">Fr|En</a></li>
            <li class="header_list_item"><a href="#" class="header_list_link">0</a></li>
          </ul> 
-       </div>
+       <!-- </div> -->
       </div>
      </nav>
     </header>
@@ -89,6 +97,9 @@
             <div class="photos_text photos_third_text">STACK THE NECKLACES</div>
           </div>
       </div>
+      <div class="photos_arrows">
+        <div class="photos_arrow_left"><img src="./img/arrow_left.svg" alt=""></div>
+      <div class="photos_arrow_right"><img src="./img/arrow_right.svg" alt=""></div>
   </div>
 </section>
 
@@ -114,7 +125,10 @@
 <section class="arrivals">
   <div class="container">
       <div class="arrivals_shop">SHOP NEW ARRIVALS</div>
-
+<div class="arrivals_arrows">
+  <div class="arrivals_arrow_left"><img src="./img/arrow_left.svg" alt=""></div>
+<div class="arrivals_arrow_right"><img src="./img/arrow_right.svg" alt=""></div>
+</div>
       <div class="arrivals_wrapper">
         <div class="arrivals_first">
             <div class="arrivals_title">Stein Necklace in Silver 
@@ -152,7 +166,12 @@
         <div class="shirts_second_subtitle">Support the fundraising campaign</div>
       </div>
     </div>
+    <div class="shirts_arrows">
+      <div class="shirts_arrow_left"><img src="./img/arrow_left.svg" alt=""></div>
+    <div class="shirts_arrow_right"><img src="./img/arrow_right.svg" alt=""></div>
   </div>
+  </div>
+  
 </section>
 
 <section class="browse">
@@ -164,12 +183,12 @@
     <div class="browse_wrapper">
       <div class="browse_first">
         <div class="browse_text">Rings</div>
-        <img src="./img/section5_rings.png" alt="">
+        <a href="#"><img src="./img/section5_rings.png" alt=""></a>
       </div>
-      <div class="browse_second"><img src="./img/section5_bracelet.png" alt=""></div>
+      <div class="browse_second"><a href="#"><img src="./img/section5_bracelet.png" alt=""></a></div>
       <div class="browse_third">
         <div class="browse_text">Earrings</div>
-        <img src="./img/section5_earrings.png" alt="">
+        <a href="#"><img src="./img/section5_earrings.png" alt=""></a>
       </div>
     </div>
   </div>
@@ -180,7 +199,7 @@
     <div class="books_wrapper">
       <div class="books_first">
         <img src="./img/section6_first.png" alt="">
-        <div class="books_text">One-of-a-kind books</div>
+        <div class="books_text"><a href="#">One-of-a-kind books</a></div>
       </div>
     <div class="books_second">
       <img src="./img/section6_second.png" alt="">
@@ -196,6 +215,10 @@
       tomorrow. We use ethical stones and the 
       most eco-responsible raw material possible.</div>
     <div class="together_wrapper">
+      <div class="together_arrows">
+        <div class="together_arrow_left"><img src="./img/arrow_left.svg" alt=""></div>
+        <div class="together_arrow_right"><img src="./img/arrow_right.svg" alt=""></div>
+      </div>
       <div class="together_first">
         <img src="./img/section7_first.png" alt="">
         <div class="together_number">01</div>
@@ -217,23 +240,6 @@
   <div class="learn_more"><a href="#">Learn more</a></div>
 </section>
 
-<!-- 
-      <section class="nine">
-       <div class="container">
-        <div class="wrapper_nine overflow">
-          <div class="bg1_nine fl">
-            <div class="text1_nine">#EVERYGRAMCOUNTS</div>
-          </div>
-          <div class="bg2_nine fl">
-            <div class="text2_nine">
-              Fairmined Gold: choose ethical gold
-            </div>
-           <div class="text3_nine">Shop Fairmined Gold</div> 
-          </div>
-        </div>
-       </div>
-      </section> -->
-
      <section class="rings">
       <div class="container">
         <div class="rings_wrapper">
@@ -244,7 +250,7 @@
           <div class="rings_second">
             <img src="./img/section8_bg2.png" alt="">
             <div class="rings_second_title">Fairmined Gold: choose ethical gold</div>
-            <div class="rings_second_text">Shop Fairmined Gold</div>
+            <div class="rings_second_text"><a href="#">Shop Fairmined Gold</a></div>
           </div>
         </div>
       </div>
@@ -311,6 +317,7 @@
               </nav>
             </div>
   
+           
             <div class="footer_myel">
               <div class="footer_title">MYEL</div>
                 <ul class="footer_myel_list">
@@ -332,6 +339,7 @@
                 </ul>
               </nav>
             </div>
+
           </div>
           </div>
   

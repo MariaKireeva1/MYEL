@@ -1,5 +1,6 @@
 body {
-  background: #f1f1f1;
+  /* background: crimson; */
+   background: #f1f1f1;
   font-family: 'Roboto';
  
 }
@@ -23,41 +24,47 @@ body {
   text-align: center;
 }
 
+.header_logo {
+  display: none;
+}
 
-.header {
+.header_list {
   height: 88px;
   padding: 25px 35px 25px 30px;
   box-sizing: border-box;
-}
-
- .header .header_list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 } 
 
-.header .header_list .header_list_link {
+ .header_list .header_list_link {
   text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
   color: #000000;
+  border-bottom:1px solid transparent;
 }
 
-.header .header_list_item:nth-child(1) {
+.header_list .header_list_link:hover {
+  border-bottom: 2px solid #D8BF95;
+}
+
+ .header_list_item:nth-child(1) {
   margin-right: 190px;
 }
 
-.header .header_list_item:nth-child(2) {
+ .header_list_item:nth-child(2) {
   margin-right: 150px;
   margin-left: 40px;
 }
 
-.header .header_list_item:nth-child(4) {
+ .header_list_item:nth-child(4) {
   margin-right: 150px;
   margin-left: 100px;
 } 
+
 
 
 
@@ -80,12 +87,16 @@ body {
   position: relative;
 }
 
+.photos .photos_wrapper img {
+  max-width: 100%;
+}
+
 .photos .photos_wrapper .photos_third {
   position: relative;
 }
 
 .info {
-  min-height: 580px;
+  margin-bottom: 150px;
  padding-top: 116px;
 }
 
@@ -126,8 +137,15 @@ color: #000000;
 .info .info_wrapper .info_link a:hover{
   border-bottom: 2px solid #D8BF95;
 }
+
+
 .arrivals {
-  min-height: 780px;
+  margin-bottom: 180px;
+}
+
+
+.arrivals img {
+  max-width: 100%;
 }
 
 .arrivals .arrivals_wrapper {
@@ -195,10 +213,6 @@ border-bottom: 2px solid transparent;
   max-width: 310px;
 } 
 
-.shirts {
-  min-height: 936px;
-}
-
 .shirts .shirts_wrapper {
   display: flex;
 }
@@ -228,7 +242,7 @@ border-bottom: 2px solid transparent;
 }
 
 .browse {
-  min-height: 765px;
+  margin-bottom: 100px;
   padding-top: 40px;
 }
 
@@ -261,6 +275,7 @@ border-bottom: 2px solid transparent;
   line-height: 42px;
   text-transform: capitalize;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .browse .browse_title {
@@ -271,10 +286,6 @@ color: #000000;
 margin-bottom: 15px;
 }
 
-.books {
-  min-height: 940px;
-}
-
 .books .books_wrapper {
   display: flex;
 }
@@ -283,7 +294,8 @@ margin-bottom: 15px;
   position: relative;
 }
 
-.books .books_wrapper .books_text {
+.books .books_wrapper .books_text a{
+  text-decoration: none;
   position: absolute;
   top: 30px;
   left: 45px;
@@ -295,7 +307,6 @@ margin-bottom: 15px;
 }
 
 .together {
-  min-height: 917px;
   margin-top: 90px;
   padding-top: 37px;
 }
@@ -362,11 +373,16 @@ font-size: 18px;
 line-height: 22px;
 text-transform: uppercase;
 color: #000000;
+border-bottom: 1px solid transparent;
+}
+
+.together .learn_more a:hover {
+  border-bottom: 1px solid black;
 }
 
 .rings {
-  min-height: 936px;
   margin-bottom: 140px;
+  margin-top: 50px;
 }
 
 .rings .rings_wrapper {
@@ -396,10 +412,14 @@ color: #000000;
 position: absolute;
 left: 50px;
 bottom: 64px;
-font-weight: 400;
-font-size: 14px;
-line-height: 18px;
-color: #000000;
+}
+
+.rings .rings_wrapper .rings_second .rings_second_text a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  color: #000000;
 }
 
 .rings .rings_wrapper .rings_second .rings_second_title {
@@ -413,8 +433,15 @@ color: #000000;
 max-width: 570px;
 }
 
+.rings .rings_wrapper .rings_second .rings_second_text  {
+  border-bottom: 2px solid transparent;
+}
+
+.rings .rings_wrapper .rings_second .rings_second_text:hover {
+  border-bottom: 2px solid #5476b0;
+}
+
 .subscribe {
-  min-height: 547px;
   background: url(../img/last_bg.png) center/cover no-repeat;
 }
 
@@ -462,7 +489,7 @@ margin-bottom: 58px;
 }
 
 .footer {
-  min-height: 401px;
+  margin-bottom: 40px;
 }
 
 .footer .footer_container {
@@ -487,7 +514,7 @@ margin-bottom: 58px;
 
 .footer .footer_shop_second {
   margin-top: 45px;
-  margin-left: 150px;
+  margin-left: 125px
 }
 
 .footer .footer_title {
@@ -588,3 +615,868 @@ color: #9B9B9B;
 .footer .footer_item a:hover {
   border-bottom: 2px solid #D8BF95;
 } 
+
+.shirts .shirts_wrapper img {
+  max-width: 100%;
+}
+
+.rings .rings_wrapper img {
+  max-width: 100%;
+}
+.books .books_wrapper img {
+  max-width: 100%;
+}
+.browse .browse_wrapper img {
+  max-width: 100%;
+}
+.burger {
+  display: none;
+}
+
+ .photos {
+  position: relative;
+} 
+
+.photos .photos_arrows .photos_arrow_left {
+  display: none;
+  position: absolute;
+left: 20px;
+bottom: calc(50% - 30px);
+}
+
+.photos .photos_arrows .photos_arrow_right {
+  display: none;
+  position: absolute;
+right: 20px;
+bottom: calc(50% - 30px);
+}
+
+.shirts {
+  position: relative;
+} 
+
+.shirts .shirts_arrows .shirts_arrow_left {
+  display: none;
+  position: absolute;
+left: 20px;
+bottom: calc(50% - 30px);
+}
+
+.shirts .shirts_arrows .shirts_arrow_right {
+  display: none;
+  position: absolute;
+right: 20px;
+bottom: calc(50% - 30px);
+}
+
+.together {
+  position: relative;
+} 
+
+.together .together_arrows .together_arrow_left {
+   display: none; 
+  position: absolute;
+left: 20px;
+bottom: calc(50% - 100px);
+}
+
+.together .together_arrows .together_arrow_right {
+   display: none; 
+  position: absolute;
+right: 20px;
+bottom: calc(50% - 100px);
+}
+
+.arrivals {
+  position: relative;
+} 
+
+.arrivals .arrivals_arrows .arrivals_arrow_left {
+   display: inline-block; 
+  position: absolute;
+  right: 102px;
+  top: 0;
+  cursor: pointer;
+}
+
+.arrivals .arrivals_arrows .arrivals_arrow_right {
+   display: inline-block; 
+  position: absolute;
+  right: 64px;
+  top: 0;
+  cursor: pointer;
+}
+
+
+@media (max-width: 1400px) {
+.header_list .header_list_link {
+  font-size: 15px;
+}
+
+ .header_list_item:nth-child(1) {
+  margin-right: 120px;
+}
+
+ .header_list_item:nth-child(2) {
+  margin-right: 130px;
+} 
+
+ .info .info_wrapper .info_text {
+  max-width: 790px;
+  margin-left: 25px;
+ }
+
+ .info .info_wrapper .info_text .info_title {
+  font-size: 55px;
+ }
+
+ .info .info_wrapper .info_link {
+  margin: 20px 30px 0 0;
+ }
+
+ .arrivals .arrivals_shop {
+  margin-left: 25px;
+}
+
+.arrivals .arrivals_wrapper {
+  margin: 0 25px;
+}
+
+
+
+.browse .browse_title {
+  text-align: center;
+}
+
+.browse .browse_wrapper .browse_first {
+margin-right: 15px;
+}
+
+.browse .browse_wrapper .browse_second {
+  margin-right: 15px;
+}
+
+
+
+.together .together_title {
+  font-size: 35px;
+}
+
+.together .together_wrapper .together_first .together_text {
+  max-width: 350px;
+}
+
+.together_wrapper {
+  margin-right: 20px;
+}
+
+.footer .footer_container {
+  padding: 70px 60px 0 60px;
+}
+
+.footer .footer_item a {
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.footer .footer_shop_second {
+  margin-left: 45px;
+}
+
+.footer .footer_right .footer_support {
+  margin-right: 30px;
+}
+}
+
+@media (max-width: 992px) {
+  .header_list {
+      padding: 25px 20px;
+  }
+
+  .header_list_item:nth-child(1) {
+    margin-right: 50px;
+  }
+  
+   .header_list_item:nth-child(2) {
+    margin-right: 55px;
+  }
+
+  .header_list_item:nth-child(4) {
+    margin-left: 55px;
+    margin-right: 30px;
+  }
+
+  .header_list_item:nth-child(5) {
+    margin-left: 0px;
+  }
+
+ .header_list .header_list_link {
+    font-size: 13px;
+  }
+
+  .shirts .shirts_wrapper .shirts_second .shirts_second_title {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 40px;
+  }
+
+  .shirts_wrapper .shirts_second .shirts_second_subtitle {
+    left: 50px;
+    bottom: 64px;
+    font-size: 14px;
+}
+
+ 
+.info .info_wrapper .info_text {
+  max-width: 585px;
+ }
+
+ .info .info_wrapper .info_text .info_title {
+  font-size: 45px;
+  line-height: 55px;
+ }
+
+ .together .together_wrapper .together_text {
+  max-width: 250px;
+  font-size: 18px;
+}
+
+.together .together_wrapper {
+  margin-left: 0px;
+  margin-right: 85px;
+}
+
+.together .together_wrapper .together_number {
+  display: none;
+}
+
+.together .together_wrapper img {
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+.together .together_wrapper .together_third .together_text {
+  max-width: 335px;
+}
+
+.together .together_wrapper .together_first .together_text {
+  max-width: 335px;
+}
+
+.together .together_wrapper .together_third {
+  display: none;
+}
+
+.together .together_arrows .together_arrow_right {
+  display: inline-block;
+}
+
+.together .learn_more {
+  margin-left: 64px;
+}
+
+.subscribe .subscribe_title {
+  max-width: 100%;
+  margin-bottom: 17px;
+}
+
+.subscribe .subscribe_subtitle {
+  margin-bottom: 32px;
+}
+
+.subscribe .subscribe_wrapper {
+  margin-bottom: 229px;
+}
+
+.rings .rings_wrapper .rings_second .rings_second_title {
+  left: 30px;
+  top: 10px;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.footer .footer_item a {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer .footer_shop_second {
+  margin-left: 39px;
+}
+
+.footer .footer_container {
+  padding: 66px 26px 0 45px;
+}
+
+}
+
+@media (max-width: 769px) {
+.header_logo {
+ display: block;
+text-align: center;
+  padding: 20px 0;
+}
+
+ .header_list {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 6;
+  width: 40%;
+  height: 100vh;
+  background-color: #D8BF95;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.6s all;
+}
+
+.shipping {
+  position: relative;
+  z-index: 7;
+}
+
+.header_list_active {
+  left: 0;
+}
+
+.header_list .header_list_item_logo{
+  position: absolute;
+  right: -100%;
+  top: -100%;
+}
+
+.header_list .header_list_item {
+  margin: 0;
+  margin-top: 60px;
+}
+
+.header_list_item_logo {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+
+
+.burger {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 6px);
+  width: 20px;
+  height: 12px;
+}
+
+.burger span {
+display: block;
+height: 2px;
+width: 100%;
+background-color: #000000;
+margin-bottom: 2px;
+transition: 0.5s all;
+}
+
+
+.burger_active span {
+  margin-bottom: -2px;
+}
+
+.burger_active span:nth-child(1) {
+transform: translateY(3px) rotate(-45deg);
+}
+
+.burger_active span:nth-child(2) {
+  display: none;
+  }
+
+  .burger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+    }
+
+
+.info {
+      margin-bottom: 130px;
+      padding-top: 100px;
+}
+
+.info .info_wrapper {
+  display: block;
+}
+
+.info .info_wrapper .info_text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.info .info_wrapper .info_link {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.info .info_wrapper .info_link a {
+  margin-left: 60px;
+}
+
+.arrivals .arrivals_wrapper {
+  margin-right: 65px;
+}
+
+.arrivals .arrivals_wrapper .arrivals_first {
+  margin: 0 auto;
+}
+
+.arrivals .arrivals_wrapper .arrivals_second {
+  display: none;
+}
+
+.arrivals .arrivals_wrapper .arrivals_third {
+  display: none;
+}
+.arrivals .arrivals_arrows .arrivals_arrow_left {
+  display: none; 
+}
+
+
+.arrivals .arrivals_arrows .arrivals_arrow_right {
+  display: inline-block;
+  right: 30px;
+  top: 300px;
+}
+
+
+.arrivals .arrivals_arrows {
+  top: 300px;
+}
+
+.arrivals .arrivals_shop {
+text-align: center;
+margin-bottom: 45px;
+}
+
+.arrivals .arrivals_wrapper .arrivals_title {
+  text-align: center;
+  margin-left: 50px;
+}
+
+.arrivals .arrivals_wrapper .arrivals_first img {
+  margin-left: 30px;
+}
+
+.arrivals .arrivals_wrapper .arrivals_price {
+  left: 0px;
+}
+
+.shirts .shirts_wrapper .shirts_second .shirts_second_title {
+  left: 15px;
+  top: 0px;
+  font-size: 30px;
+}
+
+.shirts .shirts_wrapper .shirts_second .shirts_second_subtitle {
+  left: 15px;
+  bottom: 25px;
+  font-size: 15px;
+} 
+
+
+.together .together_wrapper .together_text {
+  max-width: 135px;
+  font-size: 16px;
+}
+
+.together .together_wrapper img {
+  margin-left: 0;
+}
+
+.together .together_wrapper {
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+.together .together_title {
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.rings .rings_wrapper .rings_second .rings_second_title {
+  left: 25px;
+  top: 8px;
+  font-size: 30px;
+  line-height: 40px;
+  max-width: 270px;
+}
+
+.rings .rings_wrapper .rings_first .rings_first_text {
+  left: 27px;
+  top: 27px;
+}
+
+
+.footer .footer_left {
+  display: block;
+  margin-right: 50px;
+}
+
+.footer .footer_shop_second {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.footer .footer_right .footer_support {
+  margin-right: 50px;
+}
+
+.footer_wrapper {
+  margin-bottom: 50px;
+}
+
+.footer .footer_social .footer_social_text {
+  margin-bottom: 12px;
+}
+
+}
+
+@media (max-width: 577px) {
+
+.photos .photos_second {
+  display: none;
+}
+
+.photos .photos_third {
+  display: none;
+}
+
+.photos .photos_first {
+  margin: 0 auto;
+}
+
+.photos .photos_wrapper .photos_text {
+  left: calc(50% - 80px);
+}
+
+ .photos .photos_arrows {
+  display: block;
+}
+
+.photos .photos_arrows .photos_arrow_right {
+  display: inline-block;
+}
+
+
+.info .info_wrapper .info_text {
+  max-width: 500px;
+}
+
+.info .info_wrapper .info_text .info_title {
+  font-size: 27px;
+  line-height: 45px;
+  margin-bottom: 15px;
+}
+
+.info .info_wrapper .info_link {
+  margin-top: 45px;
+}
+
+.shirts .shirts_first {
+  display: none;
+}
+
+.shirts .shirts_arrows {
+  display: block;
+}
+
+.shirts .shirts_arrows .shirts_arrow_right {
+  display: inline-block;
+}
+
+.shirts .shirts_wrapper .shirts_second .shirts_second_title {
+  left: 125px;
+  top: 8px;
+}
+
+.shirts .shirts_wrapper .shirts_second .shirts_second_subtitle {
+  left: 117px;
+  bottom: 40px;
+}
+
+.browse .browse_wrapper {
+ flex-direction: column;
+}
+
+.browse_first {
+  margin-bottom: 30px;
+}
+
+.browse_second {
+  margin-bottom: 30px;
+}
+
+.browse .browse_wrapper .browse_text {
+  left: 170px;
+  bottom: 20px;
+}
+
+.books .books_second {
+  display: none;
+}
+
+.books .books_wrapper .books_text a {
+  top: -35px;
+  left: 180px;
+  font-size: 25px;
+}
+
+.together .together_wrapper {
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+
+.together .together_wrapper .together_number {
+  display: none;
+}
+
+
+.together .together_wrapper .together_third {
+  display: block;
+}
+
+.together .together_arrows .together_arrow_right {
+  display: none;
+}
+
+.together .together_wrapper  .together_text {
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+.together .together_title {
+  font-size: 24px;
+  max-width: 470px;
+}
+
+.learn_more {
+  text-align: center;
+}
+
+  .together_first {
+    display: flex;
+}
+
+.together_second {
+  display: flex;
+}
+
+.together .together_wrapper .together_third {
+  display: flex;
+}
+
+.together {
+  margin-bottom: 60px;
+  padding-right: 15px;
+}
+
+
+
+
+.rings {
+  margin-bottom: -65px;
+}
+
+.rings_wrapper {
+  flex-direction: column;
+}
+
+.rings .rings_wrapper .rings_first .rings_first_text {
+  left: 27px;
+  top: 27px;
+}
+
+.rings .rings_wrapper .rings_second .rings_second_title {
+  font-size: 20px;
+max-width: 100%;
+left: 0;
+top: 65px;
+}
+
+.rings .rings_wrapper .rings_second .rings_second_text {
+  left: 0px;
+  top: 115px;
+  max-width: 100%; 
+  font-size: 15px;
+}
+
+.subscribe {
+  display: none;
+}
+
+.together_first {
+  display: block;
+}
+
+.together_second img {
+display: none;
+}
+
+.together .together_wrapper .together_third {
+display: block;
+}
+
+.together .together_wrapper .together_second {
+display: block;
+}
+
+.together .together_wrapper .together_third img {
+display: none;
+}
+
+.together .together_wrapper .together_number {
+display: block;
+text-align: center;
+margin-bottom: 0px;
+font-size: 15px;
+}
+
+.together .together_wrapper .together_text {
+  margin-top: 0px;
+  margin-left: 0px;
+  max-width: 80%;
+}
+
+.together .together_title {
+font-size: 26px;
+max-width: 80%;
+line-height: 40px;
+margin-bottom: 25px;
+}
+
+.together .together_wrapper .together_first img {
+margin-left: 30px;
+}
+
+.together .learn_more {
+  margin-left: 30px;
+  margin-top: 35px;
+}
+
+.footer_lang {
+  display: none;
+}
+.footer_reserved {
+  display: none;
+}
+
+.footer_credits {
+  display: none;
+}
+}
+
+
+@media (max-width: 480px) {
+  .shipping_text {
+    display: none;
+  }
+
+  .shirts .shirts_wrapper .shirts_second .shirts_second_title {
+     left: 60px;
+
+    top: 0px;
+    font-size: 25px;
+}
+
+.shirts .shirts_wrapper .shirts_second .shirts_second_subtitle {
+  left: 75px;
+  bottom: 20px;
+  
+}
+
+.browse .browse_wrapper .browse_text {
+  left: 20px;
+}
+
+.books .books_wrapper .books_text a {
+  top: -25px;
+  left: 0px;
+  font-size: 13px;
+}
+
+.rings .rings_wrapper .rings_second .rings_second_text {
+  left: 0px;
+}
+
+.rings .rings_wrapper .rings_second .rings_second_title {
+  left: 0px;
+  top: 55px;
+  line-height: 55px;
+  max-width: 100%;
+}
+
+
+
+
+.footer .footer_right {
+  display: block;
+}
+
+
+.footer .footer_right .footer_myel {
+  margin-top: 150px;
+  margin-left: -140px;
+}
+
+.footer_visit {
+  margin-left: 14px;
+  margin-top: 50;
+  margin-top: -182px;
+}
+
+.footer .footer_social {
+  padding-top: 75px;
+}
+
+.footer .footer_title {
+  font-size: 23px;
+
+}
+
+.footer .footer_item a {
+  font-size: 18px;
+  line-height: 24px;
+}
+}
+
+@media (max-width:370px) {
+  .rings .rings_wrapper .rings_second .rings_second_title {
+    font-size: 15px;
+  }
+
+  .rings .rings_wrapper .rings_second .rings_second_text a {
+    font-size: 13px;
+  }
+
+  .rings .rings_wrapper .rings_second .rings_second_text {
+    top: 105px
+  }
+
+  .together {
+    margin-top: 30px;
+    padding-top: 0px;
+    padding-right: 15px;
+}
+.together .together_title {
+  font-size: 14px;
+  max-width: 280px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.together .together_wrapper .together_text {
+  margin-top: 0px;
+  margin-left: 21px;
+}
+
+.together .together_wrapper .together_first img {
+  margin-left: 9px;
+}
+}
